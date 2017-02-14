@@ -1,0 +1,15 @@
+.cycle-slideshow{ :data => {:cycle_slides => "> div", :cycle_paused => 'true', :cycle_next => '> .pagination > li > .cycle-next', :cycle_prev => '> .pagination > li > .cycle-prev'}}
+  - section.links.each_slice(6) do |slide|
+    .slide.clearfix
+      - slide.each do |link|
+        .item.col-md-4.col-xs-15.col-sm-6
+          .content-box.box-default.text-center
+            =link_to image_tag(video_thumbnail_path(:title => link.slug, :section => section.slug), :class => 'lg-thumbnail', :alt => link.title), video_path(:title => link.slug ), :class => 'video-thumbnail'
+            %h4.content-box-title 
+              =link_to link.title, video_path(:title => link.slug)
+  - if section.links.count > 6
+    %ul.pagination.text-center
+      %li
+        %a.cycle-prev{:href => "#"} « Prev
+      %li
+        %a.cycle-next{:href => "#"} » Next

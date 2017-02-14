@@ -1,0 +1,10 @@
+- section.links.each do |link|
+  .item.col-md-3.col-xs-15.col-sm-6
+    .content-box.box-default.text-center
+      - if link.image
+        =link_to image_tag(link.image, :class => "img-circle", :size => "200x200"), link.href, :class => "text-center"
+      - else
+        =link_to image_tag("https://placehold.it/200x200", :class => "img-circle"), link.href, :class => "text-center" 
+      %h4.content-box-title 
+        =link_to link.title, link.href, :target => '_blank'
+      %p=link.description

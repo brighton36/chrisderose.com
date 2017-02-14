@@ -1,0 +1,16 @@
+%main
+  .container
+    %section.section.row.single_video
+      %div{class: @sidebar_videos ? 'col-lg-9' : 'col-lg-12'}
+        %h2=@video.title
+        .col-lg-6
+          =link_to image_tag(video_thumbnail_path(:title => @video.slug, :section => 'video'), :class => 'lg-thumbnail', :alt => @video.title), @video.href, :class => 'video-thumbnail'
+        .col-lg-5
+          %p= @video.description
+        - if @video.subtitle
+          .col-lg-12.transcription
+            %h3 Transcription
+            %p=to_paragraphs @video.subtitle, 6
+      - if @sidebar_videos
+        .col-lg-3.sidebar
+          = render :partial => 'sidebar'

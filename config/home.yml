@@ -1,0 +1,383 @@
+# title: section title.
+# images: default is false
+# nav: title for the nav element per section
+# template:
+#  - portrait: vertical blocks 3 per row.
+#  - landscape: this is the default for all sections. It currently has an
+#    image placeholder.
+#---
+#title: "Upcoming Events"
+#description: "In general, you never can tell exactly where I'll be popping up. But, on occasion, I get to plan a schedule in advance. Below are the big events I plan to attend in the near future. This is by no means an extensive list. Of course, if you're looking for me on a Thursday night, it's highly probable that I'll be at our South Florida Bitcoin meetup. Check me out!"
+#images: true
+#nav: "events"
+#template: 'big_landscape'
+#links:
+  #- title: 'Inside Bitcoins 2015, New York | April 27-29'
+    #href: 'http://insidebitcoins.com/new-york/2015'
+    #image: 'inside-bitcoin-new-york.png'
+    #description: 'Inside Bitcoins New York is one conference in a series of Blockchain focused events taking place across the worl.  This conference is taking place at the Javits Center with the brightest minds and leading influencers in the Bitcoin 2.0 and alternative currency space. Come look for me at the event and lets explore the promise of decentralized technology and the future of finance.'
+  #- title: 'DBS Blockchain Hack 2015, Singapore | May 8-9'
+    #href: 'http://www.startupbootcamp.org/blockchainhack'
+    #image: 'dbs-blockchain-hackathon2015.png'
+    #description: 'The DBS blockchain hack is a two day hackathon based in Singapore, and will be attended by many of the regions best brightest fintech hackers for the exclusive purpose of hacking up solutions to blockchain challenges by many of the top companies in Bitcoin, and the surrounding space.'
+  #- title: 'HackMiami Conference | May 15-17'
+    #href: 'https://www.hackmiami.com/'
+    #image: 'hackmiami-2015.png'
+    #description: 'HackMiami Conference 2015 is notorious for gathering the brightest minds in the information security industry and the digital underground, together, under one roof. The HMC 2015 line-up will showcase the hottest penetration testing tools, techniques, and methodologies, which are at the forefront of the global digital threatscape.'
+  #- title: 'Bitcoin Pizza Day, Jacksonville | May 22'
+    #href: 'https://www.hackmiami.com/'
+    #image: 'bitcoin-pizza-day-jacksonville.png'
+    #description: 'Come celebrate Jacksonville Bitcoin history with the five year anniversary of the first transaction which took place May 22nd 2010. It was on that date that two Papa Johns Pizzas were delivered to a Jacksonville resident for 10,000 BTC creating the first market valuation at 3/10th of a cent.'
+  #- title: 'American Banker Digital Currencies Conference | July 28'
+    #href: 'http://www.americanbanker.com/conferences/digitalcurrencies/'
+    #image: 'american-banker-digital-currencies-conference.png'
+    #description: "The financial world has woken up to the commercial potential of distributed ledger technology. Banks around the world are starting to experiment with Bitcoin, Ripple, and other decentralized database systems influenced and inspired by Satoshi Nakamoto\'s creation. But this Cambrian explosion of cryptocurrencies and protocols has raised a series of fascinating questions..."
+  #- title: 'Miami Hackathon 2015'
+    #href: 'http://miamibitcoinhackathon.com'
+    #image: 'miami-hackathon.jpg'
+    #description: 'Bitcoin provides a great opportunity for developers. Like the Internet, the Bitcoin network is an open protocol that allows any developer to build whatever comes to imagination. Brilliant minds and talented developers all over the world are using Bitcoin to build great software. VC funding in Bitcoin is measured to set a record year in 2014 with over 400 Million Dollars invested into Bitcoin startups.'
+    #- title: 'Bitcoin Bowl'
+      #href: 'http://stpetersburgbowl.com/'
+      #image: 'bitcoin-bowl.jpg'
+      #description: 'Welcome to the Bitcoin St. Petersburg Bowl, a postseason college football game matching up the Atlantic Coast Conference against the American Athletic Conference.'
+#  - title: 'The North American Bitcoin Conference | Jan 16-18, 2015'
+    #href: 'http://btcmiami.com/'
+    #image: 'nabc.jpg'
+    #description: "More than 1500 bitcoin community members will soon be converging on Miami for a direction-setting conference aimed at driving the currency from speculation to mainstream. Building on the recent success of The North American Bitcoin Conference (TNABC)  in 2013 and 2014, TNABC Miami will hit Miami Beach on January 16 - 18, 2015 at the historic Fillmore Theatre in Miami Beach."
+  #- title: 'Latitude 19.30 N | January 21, 2015'
+    #href: 'http://latitude.global/'
+    #image: 'latitude.jpg'
+    #description: "LATITUDE 19.30 N is a business which takes Startup Technology Companies to global markets through a system designed around an award winning ‘Accelerator’ program.
+      #The Acceleration program & all aspects of LATITUDE 19.30 N are driven by a global network of mentors & experts, working in-person & virtually, facilitated by a core management team at the George Town, Grand Cayman offices of LATITUDE.  The 3 month acceleration program is a mentor-driven customized curriculum of due diligence."
+  #- title: 'Daily Fantasy Sports Expo | August 6-7'
+    #href: 'http://www.fantasysportsexpo.com/'
+    #image: 'daily-fantasy-sports-expo.png'
+    #description: 'The Trade Show discusses all the aspects of running a daily fantasy sports business. It covers: standards, jurisdictions, new technology, marketing strategy, handicapping, fantasy sports software, points systems, management, operations, statistics, and business trends.'
+  #- title: 'Medios de Pago LatAm Summit | August 24-26'
+    #href: 'http://mediosdepagolatinoamerica.com/english'
+    #image: 'mediosdepagolatinoamerica.png'
+    #description: 'The 7th edition of the Payment Methods LATAM Summit as a continuation of the incredibly well attended series that has been a hallmark summit for payment methods professionals. As the industry continues to advance toward a digital future to maintain a connection with the increasingly digital consumer our program & industry expert presenters have advanced to remain on the cutting edge of card technology & digital payment methods.'
+  #- title: 'Mobile Payment Conference, Chicago | August 31-September 2'
+    #href: 'http://mobilepaymentconference.com/'
+    #image: 'mobile-payments-conference.png'
+    #description: 'The Fall 2015 Mobile Payments Conference will be held at the Hyatt Regency McCormick Place in Chicago, IL, August 31 - September 2, 2015. The conference will highlight the many new mobile commerce platforms, services, solutions, and standards that continue to enter this exploding market. If your company is either a Retailer, financial institution, ISO, or a Vendor and are looking at or already participating in mobile commerce, you’ll find something new at this event!'
+  #- title: 'AltConvention | October 8-10'
+    #href: 'http://www.altconvention.com/'
+    #image: 'alt-convention.png'
+    #description: 'Alt convention is an incredible finance and technology event taking place in Batumi, Georgia. The conference will feature Headline speeches from some of the leading thinkers and innovators in digital currency, blockchain development, banking, finance, commerce, and legislation. Alt Convention is focused around workshops and roundtables, with the theme this year being digital currency and blockchain.'
+  #- title: 'MTBIT at IMTC World | November 9th'
+    #href: 'http://imtconferences.com/mtbit-imtc-world-2015/'
+    #image: 'imtc-mtbit-2015.png'
+    #description: 'Remittances & Blockchains – is a day of sessions, panels and roundtables at IMTC where we explore the role of blockchain-based technology companies in the international money transfer & remittances market. Emerging money transfer & remittance systems based on cryptocurrency protocols such as Bitcoin, Ripple, Stellar, are challenging traditional remittances methods and we are gathering all the experts from companies and start-ups to meet with seasoned industry professionals to share their expertise, network and partner.'
+  #- title: 'Digital Currencies and Remittances at BU | November 12th'
+    #href: 'http://www.bu.edu/bucflp/2015/10/22/digital-currencies-and-remittances-innovation-regulation-and-development/'
+    #image: 'BU-Digital-Currencies-and-Remittances.png'
+    #description: 'Please join us for the CFLP Lunch Panel that discusses digital currencies as important emerging alternatives to traditional remittance systems, exploring the issues of social and technological innovation, regulation, and policy. Digital remittance technologies can provide convenient and secure financial services to those excluded from the formal financial sector and can be particularly important in conflict-affected contexts, where remittance transfers are limited by institutional inadequacies and regulatory concerns.'
+#---
+title: "In The Media"
+nav: "media"
+description: "Sometimes I get featured elsewhere in the community. Usually it's because I did something right, but don't be surprised to see me drop the ball in a spectacular fashion every now and then. Even Satoshi got it wrong on occasion."
+links:
+  - title: "Two Types of Blockspace Demand"
+    href: "http://www.truthcoin.info/blog/blockspace-demand/"
+    description: "The “market for Bitcoin block space” is a hot topic. Everyone’s talking about 'blocksize' and 'fees'. Economists frame these issues in terms of 'supply and demand'. I’ve previously argued that, when it comes to blocksize and fees, miners will act as a single coordinated monopolist."
+  - title: "Exclusive (and Controversial) Satoshi Roundtable Commences"
+    href: "https://news.bitcoin.com/satoshi-roundtable-2017/"
+    description: "Chris Derose and Joshua Unseth, Bitcoin Uncensored hosts, crashed Satoshi Roundtable 2016. They 'were made aware of the event by nearly 10% of those in attendance,' wrote Mr. Unseth on his blog. 'Through various channels, seven or so people told us where the event was and asked us to please come.'"
+  - title: "Bitcoin Has Many Fans at Amazon According to Purse CEO Andrew Lee"
+    href: "http://coinjournal.net/bitcoin-many-fans-amazon-according-purse-ceo-andrew-lee/"
+    description: "Purse is a platform that allows users to get a discount on their Amazon purchases by matching bitcoin holders with those who have a balance on the ecommerce platform. In a recent interview with Bitcoin Uncensored’s Chris DeRose, Purse CEO Andrew Lee discussed Purse’s relationship with Amazon."
+  - title: "Report: The North American Bitcoin Conference – Day Two"
+    href: "https://news.bitcoin.com/report-north-american-bitcoin-conference-day-two/"
+    description: "The conference was a giant success as many guests explained they were very happy to attend the Miami event. Furthermore, Bitcoin.com let the hosts of Bitcoin Uncensored use our exhibition booth to broadcast which was far cleaner than the men's restroom."
+  - title: "Blockchain 'Bullies': Truth, Trolls and Bitcoin Uncensored's Big Short"
+    href: "http://www.coindesk.com/blockchain-bullies-truth-trolling-bitcoin-uncensoreds-big-short/"
+    description: "First, a brief introduction. For those who aren’t familiar, Bitcoin Uncensored is a loosely defined podcast that’s part constant Soundcloud experimentation and part social media barrage. While maybe nothing on its own, ‘BU’ has coalesced into a (mostly) cohesive (and controversial) flavor of bitcoin intellectualism – one that is at once a rejection of the technology’s earlier Libertarian values and a supposed embrace of its more scientific merits."
+  - title: "A Proof of Stake Design Philosophy"
+    href: "https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51#.afuphnrt1"
+    description: "Originally a mere in-protocol fork choice rule, this mechanism has in many cases been elevated to a sacred tenet — see this Twitter discussion between myself and Chris DeRose for an example of..."
+  - title: "14 Industry Luminaries (and an Ode) on the State of Bitcoin 2016"
+    href: "https://news.bitcoin.com/14-luminaries-ode-state-bitcoin-2016/"
+    description: "Call them what you want; dignitaries, pundits, bigwigs, luminaries or – even – enemies. There are always headstrong debates raging on in the Bitcoin space, and some people’s names get tossed around more than other’s. We decided to reach out to a few of them and ask them a simple question."
+  - title: "CoinDesk's Most Influential People in Blockchain 2016"
+    href: "http://www.coindesk.com/coindesks-influential-people-blockchain-2016/"
+    description: "Since late November, CoinDesk has been canvassing the community for input on who our readers believe influenced the industry the most. Users were invited to choose one of the names we suggested or anyone they felt had the biggest impact on the year that was."
+  - title: "Bitcoin Uncensored: Trump Genocide Good for Bitcoin?"
+    href: "http://bitcoinist.net/bitcoin-uncensored-trump-genocide/"
+    description: "This week on Bitcoin Uncensored, Chris and Junseth provide the most accurate and reliable analysis of the 2016 US presidential election. Based on what we heard, Junseth probably rigged the election so Trump could pump his bitcoin investments."
+  - title: "A Strange High: Two Days at Denver's Crypto-Cannabis Conference"
+    href: "http://www.coindesk.com/strange-high-two-days-denvers-crypto-cannabis-conference/"
+    description: "Hungover. Trying to motivate myself to drive from Colorado Springs to Denver for the second annual Crypto-Cannabis conference. It’s 1 pm. Chris Derose messages me..."
+  - title: "Bitcoin Uncensored: Zcash Is a Scam and Andreas Is a Homo"
+    href: "http://bitcoinist.net/bitcoin-uncensored-zcash-andreas/"
+    description: "A big topic of discussion on this week’s episode focuses on the recent Zcash launch, and why the guys think the cryptocurrency is a scam. While Chris and Junseth didn’t spend too much time scam-busting, they made some hard-hitting points against Zcash."
+  - title: "Bitcoin Uncensored Exposed: Chris DeRose Definitely a CIA Shill"
+    href: "http://bitcoinist.net/bitcoin-uncensored-derose-cia/"
+    description: "Just a few of the accusations against the guys suggest that they’re being paid by the Core developers, the r/btc community, or the CIA. We think the CIA theory is the most plausible, it would take some serious money to pull off a trolling operation on a scale as grand as Bitcoin Uncensored."
+  - title: "Bitcoin Uncensored: Block Size Showdown With Roger Ver"
+    href: "http://bitcoinist.net/bitcoin-uncensored-block-size-roger-ver/"
+    description: "However, Chris and Junseth disagree with Ver on his block size stance. They argue that the network has done fine so far, with the block size approaching its 1 MB limit, and are skeptical about the problems Ver claims will occur if the block size isn’t raised soon."
+  - title: "Making Sense of Blockchain's Summer of Stupid (On Perfect Illusions)"
+    href: "http://www.coindesk.com/making-sense-blockchains-summer-stupid-perfect-illusions/"
+    description: "Amidst this backdrop, it takes a rare skill to polarize, and in the 'Summer of Stupid', there was perhaps no greater divider than 'Bitcoin Uncensored' – a sprawling, loosely defined 'podcast' that spilled across social media and permeated conversation through the sheer charisma of its creators."
+  - title: "Did Ethereum's Fork Validate Bitcoin Block Size Conservatism?"
+    href: "http://www.coindesk.com/ethereum-fork-bitcoin-block-size-debate-impact/"
+    description: "Could a development on the ethereum blockchain help resolve one of bitcoin's longest-running debates? It may not seem like an obvious question given the differences between the two blockchain networks."
+  - title: "Why Bitcoin Needs Bitcoin Uncensored"
+    href: "https://medium.com/@fmartinka/why-bitcoin-needs-bitcoin-uncensored-50699136e65a"
+    description: "Bitcoin Uncensored is a popular Bitcoin podcast that has recently been rustling jimmies and flipping tables in the face of the “Blockchain” community. They offer a scathing, immature and humorous critique of this culture, mainly because it fetishizes mindless support of projects (even if they may be scams) and an air of hyper-seriousness."
+  - title: "Bitcoin Ponzi Schemer Hints at Dealings With Mt Gox CEO"
+    href: "http://www.coindesk.com/bitcoin-ponzi-schemer-mt-gox-ceo/"
+    description: "Convicted Ponzi scheme operator Trendon Shavers is now insinuating the major unidentified debtor cited in his defense against the SEC may have been Mark Karpeles, CEO of the now-defunct bitcoin exchange Mt Gox."
+  - title: "OneCoin Event Gets Crashed by Bitcoin Uncensored – Interview"
+    href: "https://news.bitcoin.com/onecoin-crashed-bitcoin-uncensored/"
+    description: "Last week, the hosts of Bitcoin Uncensored attended and recorded a OneCoin sales seminar in Miami to ask questions about the operation. The video they released shows OneCoin leaders describing how people can get rich by investing in the operation and, come this October, their investments will rise in value because everyone’s coins will be doubled."
+  - title: "How Governments Subsidize Bitcoin's Usefulness and the Bitcoin Price"
+    href: "https://bitcoinmagazine.com/articles/how-governments-subsidize-bitcoin-s-usefulness-and-the-bitcoin-price-1467296926"
+    description: "Bitcoin Core contributor, Peter Todd, was recently interviewed on Bitcoin Uncensored by co-hosts Chris DeRose and Joshua Unseth. Ethereum, The DAO, private blockchains and many other topics were discussed..."
+  - title: "Cryptsy Founder Paul Vernon Disappeared, Along With Millions of His Customers' Cash"
+    href: "http://www.miaminewtimes.com/news/cryptsy-founder-paul-vernon-disappeared-along-with-millions-of-his-customers-cash-8557571"
+    description: "Two men burst into a suburban Delray Beach office park on a muggy weekday in August 2014, demanding to talk to the CEO. They were there to get answers."
+  - title: "Bitcoin Evangelist Has Podcast Go Bad, Threatens To Sue After It's Posted"
+    href: "https://www.techdirt.com/articles/20160618/07335634739/bitcoin-evangelist-has-podcast-go-bad-threatens-to-sue-after-posted.shtml"
+    description: "Folks in the Bitcoin/blockchain world can be fairly opinionated -- that's no surprise. But just because you have an interview go sideways, it doesn't mean you get to threaten a lawsuit over it..."
+  - title: "Ethereum in the Spotlight"
+    href: "http://forklog.net/ethereum-in-the-spotlight/"
+    description: "The enormous hype around Ethereum these days has hardly been a surprise. With its market cap steadily being second to Bitcoin’s, and mind-boggling price surge of nearly +1,200% during only first three months of 2016..."
+  - title: "Boston University Researchers Explore Bitcoin in Conflict Zones"
+    href: "http://www.coindesk.com/boston-university-research-bitcoin-conflict-zones/"
+    description: "Could digital currencies improve financial conditions in war-torn countries? Boston University's Center for Finance, Law and Policy (CFLP) has convened a task force to explore whether they can."
+  - title: "A Nobel Prize winner just ripped into bitcoin, saying it 'is likely to go to zero'"
+    href: "http://www.businessinsider.com/eugene-fame-on-bitcoin-2015-11"
+    description: "Bitcoin has been ripping higher recently, and some market participants say the digital currency is finally making a rebound with investors after a sustained fall. The advice from one Nobel Prize winner: not so fast."
+  - title: "Nobel Prize Winner Eugene Fama on Bitcoin"
+    href: "http://cointelegraph.com/news/115593/nobel-prize-winner-eugene-fama-on-bitcoin"
+    description: "This week the Bitcoin Uncensored Podcast with Junseth and Chris Derose interviewed the winner of the 2013 Nobel Prize in Economics, Eugene Fama. Bitcoin Uncensored has given CoinTelegraph the first peek at the interview so that we could publish it for the greater Bitcoin community."
+  - title: "Transmission Episode Forty on the World Crypto Network"
+    href: "https://www.youtube.com/watch?v=uVbikVN2MZ4"
+    description: "Interview with Chris DeRose of the Counterparty project on Meta Coins, Blockchains, Smart Contracts"
+  - title: "Miami Bitcoin Hackathon: And the winners were..."
+    href: "http://miamiherald.typepad.com/the-starting-gate/2015/01/miami-bitcoin-hackathon-and-the-winners-were.html"
+    description: "Doug Carrillo, Andrew Barnard, Peter Nova and the other organizers behind the  first Miami Bitcoin Hackathon said they didn't know quite what kind of turnout to expect  last weekend at The LAB Miami. But the turnout --  100 programmers and another 70  observers -- showed there is a lot of pent-up curiosity for the emerging digital currency."
+  - title: "Miami Bitcoin Hackathon Offers Big Prizes And Opportunities"
+    href: "http://bravenewcoin.com/news/miami-bitcoin-hackathon-offers-big-prizes-and-opportunities/"
+    description: "Blockchain Beach, a non-profit promoting the use and development of Blockchain Technologies, will be hosting the Miami Bitcoin Hackathon. Spanning from January 9 to January 11, the 28 hour Hackathon will bring local developers together to compete to build working applications within several categories related to bitcoin."
+  - title: 'Inaugural Miami Bitcoin Hackathon is set for Jan. 9-11'
+    href: 'http://miamiherald.typepad.com/the-starting-gate/2014/12/by-gianni-dalerta-south-florida-non-profit-technology-group-blockchainbeach-has-announced-that-it-will-be-hosting-its-ina.html'
+    description: 'South Florida non
+    profit technology group Blockchain Beach will be hosting its inaugural Miami Bitcoin Hackathon. This three-day event at The LAB Miami in Wynwood starts with a reception and registration event on Friday, Jan. 9, and ends with an award ceremony on Sunday, Jan. 11.  Coders will be competing from around the tri-county area for prizes and awards in a number of categories relating to Bitcoin and crypto-currencies technology development.'
+  - title: 'BitPay Bitcoin Bowl News Broadcast FOX13 6pm December 26, 2014'
+    href: 'https://www.youtube.com/watch?v=CmhX4YT7yng'
+    description: 'BitPay Bitcoin Bowl - Tropicana Field - St. Petersburg Florida - FOX13 6:00PM News coverage December 26, 2014'
+  - title: '3 ways South Florida businesses can benefit from bitcoin'
+    href: 'http://www.bizjournals.com/southflorida/blog/2014/12/3-ways-south-florida-businesses-can-benefit-from.html?page=all'
+    description: 'The virtual currency bitcoin might seem risky or opaque — but it could be the key to helping your business grow, said programmer Chris DeRose, who organized the Bitcoin of South Florida meetup group.'
+  - title: 'Bitcoin Expert to Talk at Bimini Boatyard Friday'
+    href: 'http://blogs.browardpalmbeach.com/pulp/2014/05/chris_derosa_bitcoin_is_not_a.php'
+    description: "Bitcoin is said to have been created five years ago by an anonymous computer programmer (or programmers) called Satoshi Nakamoto. This pseudonym is a male Japanese name, but it's never been traced to a real person"
+
+---
+title: "Presentations"
+template: "big_video_slideshow"
+description: "Let's talk about the big stuff! Chances are that if you're here, you've seen me at a conference. Here's some of my recent talks, hopefully they'll give you some new perspective on something in the Bitcoin space."
+links:
+  - title: "Mobile Payments Conference 2015 on the Future of Crypto-Currency"
+    href: "https://www.youtube.com/watch?v=9lHWJdA1QuQ&feature=youtu.be&t=9320"
+    description: "At this year's Mobile Payments Conference experts weighed in on a three hour session covering crypto currency's start and finish. Experts were pulled from various sides of the industry, and the discussion topics included: an introduction to how decentralized crypto currencies works, regulatory discussion, application of the technology today as told by Judd Bagley of Overstock, and of course my discussion on where this all goes from here."
+  - title: "Remittance & Bitcoin w/ Junseth, Pantera, and Uniteller"
+    href: "https://www.youtube.com/watch?v=LQkqecYIAX8"
+    description: "Chris DeRose moderates American Banker Bitcoin and the Blockchain conference panel on Remittances. The speakers, Junseth, Stephen Waterhouse, and Ron Schwartzman represented the Blockchain, the Pantera VC firm, and well-known remitter Uniteller respectively. Schwartzmans experience in remittances offers an unique perspective into the business of remittances, and Junseth and Waterhouse give the bankers a little bit of food to chew on about what the future of remittance might look like in a Bitcoin world."
+  - title: "The North American Bitcoin Conference 2015 Startup Stage"
+    href: "https://www.youtube.com/watch?v=lErE0qcXoWw&list=PL_tKdX3tRrh4PeZETiPR7LFLbEl1X8vyH#t=1214"
+    description: "In addition to staging groundbreaking and industry-leading Bitcoin companies, The North American Bitcoin Conference partnered with Pantera Capital to opened up the stage to emerging talents. TNABC Pantera Start-Up Stage is a unique opportunity for start-ups to present their ideas directly to their peers and in front of a panel of industry experts."
+  - title: "Bitcoin: The Future of Money and Finance At IT Paloooza 2014"
+    href: "https://www.youtube.com/watch?v=MnRNv4x8G5s"
+    description: "In this video, Chris DeRose gives a refresh on the classic 'What is Bitcoin' talk, with added info about the 2.0 technologies, and the commodity value of Bitcoin. This talk was for an audience at IT Palooza at Nova South Eastern University on December 4th, 2014."
+  - title: "CounterParty and the Asset Revolution with Chris DeRose at Coins in the Kingdom 2014"
+    href: "https://www.youtube.com/watch?v=WVxd4m3ZFFw"
+    description: "Chris DeRose discusses the many uses of Counterparty assets, business models, and programming options in front of a live audience at the Coins in the Kingdom conference on October 5th, 2014."
+  - title: "bitcoin - beyond the basics"
+    href: "https://www.youtube.com/watch?v=Dn6q9nveJbA"
+    description: "An overview of the bitcoin protocol, source code, data structures and algorithms. this presentation was delivered at nova southeastern university on june 20, 2014 by chris derose of bitcoinfl.org"
+  - title: "Chris DeRose shares Tech Tip of The Month"
+    href: "https://www.youtube.com/watch?v=yKkbklkKGdw"
+    description: "During the Women in Ecommerce Luncheon in July, Chris DeRose from DeRose Technologies Shared a tech tip about using DropBox at http://www.dropbox.com (video was filmed live and unedited) DropBox is a great online tool to help you manage your files online and do business on the web."
+---
+title: "Articles I've Written"
+nav: "articles"
+description: "When I can, I love to report on my findings to others. These are articles  I've put time into that are scattereed elsewhere around the web."
+links:
+  - title: "2016: The Year of Blockchain Hubris"
+    href: "http://www.coindesk.com/2016-year-blockchain-hubris/"
+    description: "Despite challenges in other areas, blockchain's use as a value routing protocol is developing at blistering speeds, and I would argue, with amazing results. If you know where to look, you can see labor specializing, banking services being extended and information services being globalized."
+  - title: "Why You Should Beware the Altcoin Rebrand"
+    href: "http://www.coindesk.com/why-you-should-beware-the-altcoin-rebrand/"
+    description: "While prominent blockchain groups are quick to herald in the age of the appcoin model of software design, no one has yet sat down and taken an honest and sober look at the proposition of these investments and their impact on product development incentives."
+  - title: "Why Blockchain Immutability is a Perpetual Motion Claim"
+    href: "http://www.coindesk.com/immutability-extraordinary-goals-blockchain-industry/"
+    description: "It's the buzzword that magically transforms a simple database into the next milliondollar VC fundraise. However, most of the projects that advertise this feature are not being entirely honest about just what kind of immutability they're offering."
+  - title: "Who Will Pay for Turing-Complete Smart Contracts?"
+    href: "http://www.coindesk.com/turing-complete-smart-contracts/"
+    description: "Lost in our 'pie-in-the-sky' projections on the future of blockchains is the most important concern anyone should have on the technology: What are the opportunity costs?"
+  - title: "Bitcoin and Public Blockchains Will Power the Smart Contracts Revolution"
+    href: "http://www.coindesk.com/bitcoin-and-public-blockchains-will-power-the-smart-contracts-revolution/"
+    description: "As the study of 'smart contracts' went from strange academic curiosity to the cutting-edge of FinTech, most market observers are still wondering just how this revolution in value transfer works."
+  - title: "'Smart Contracts' Are the Future of Blockchain"
+    href: "http://www.americanbanker.com/bankthink/smart-contracts-are-the-future-of-blockchain-1078705-1.html"
+    description: "As far as digital currency has come, the passing of bitcoin for purchases is still a relatively primitive transaction. But what if you could program such transactions to occur at preordained times, under set circumstances, and even involving a preregistered group of multiple counterparties?"
+  - title: "Why Big Banks Got Blockchains Wrong in 2015"
+    href: "http://www.coindesk.com/big-banks-blockchains-wrong-2015/"
+    description: "With every year comes a new audience fresh to the field with ambitions to solve all the problems of our day with blockchain. Common to nearly all of this year's blockchain pitches is the odd and previously unsexy efficiency of \"notarization\"."
+  - title: "Private 'Distributed Ledgers' Miss the Point of a Blockchain | American Banker"
+    href: "http://www.americanbanker.com/bankthink/private-distributed-ledgers-miss-the-point-of-a-blockchain-1077435-1.html"
+    description: 'Bitcoin may have had the most successful marketing campaign of any web technology in recent years. But now there’s a new buzzword making waves throughout the financial industry: "distributed ledger."'
+  - title: "Blockchain Technology Will Erode Banking Borders | American Banker"
+    href: "http://www.americanbanker.com/bankthink/blockchain-technology-will-erode-banking-borders-1075662-1.html"
+    description: '"Blockchain all the things" has become the battle cry of many Bitcoiners. In the last year, blockchains have been touted as panaceas that can solve all the "bad" parts of Facebook, the "insecure" parts of databases, and even as a solution for income inequality and government corruption.'
+  - title: "Why the Bitcoin Blockchain Beats Out Competitors | American Banker"
+    href: "http://www.americanbanker.com/bankthink/why-the-bitcoin-blockchain-beats-out-competitors-1075100-1.html"
+    description: "In the six years since Bitcoin’s debut, there has been no shortage of attempts to repeat its success. Thousands of blockchains have arrived and fizzled out without much fanfare. But many hold out hope that one day an alternative contender will succeed."
+  - title: "Behind the Ingenious Security Feature that Powers the Blockchain | American Banker"
+    href: "http://www.americanbanker.com/bankthink/behind-the-ingenious-security-feature-that-powers-the-blockchain-1074442-1.html"
+    description: "Twenty years ago, discussions over digital currency were confined entirely to the realm of science fiction. At the time, the notion that value could exist digitally and absent management by individuals was not only laughable, it was in many ways a proven impossibility."
+  - title: "Get Ready for the Rise of the Blockchain | American Banker"
+    href: "http://www.americanbanker.com/bankthink/get-ready-for-the-rise-of-the-blockchain-1073843-1.html"
+    description: "Say Bitcoin in a crowded room, and you'll find at least one guy who believes it's going to start a financial revolution. Most people remain skeptical of the libertarian utopia wherein the government cedes control of the money supply to Bitcoiners. But some are starting to come around on the blockchain as an important part of our digital future."
+  - title: "Blockchain’s Rise Can Upend Traditional Payment Providers | PaymentsSource"
+    href: "http://www.paymentssource.com/news/paythink/blockchain-rise-can-upend-traditional-payment-providers-3021170-1.html"
+    description: "Most people remain skeptical of the libertarian utopia wherein the government cedes control of the money supply to Bitcoiners. But some are starting to come around on the blockchain technology that enables Bitcoin as an important part of our digital future, as well as an advancement that threatens the third parties that often manage financial transfers."
+  - title: "Keeping Score at the 2014 Bitcoin Bowl | CoinTelegraph"
+    href: "http://cointelegraph.com/news/113255/keeping-score-at-the-2014-bitcoin-bowl"
+    description: "The Bitcoin bowl was an explosion of hype, confidence, and unbridled optimism. It was a wonderful success for Bitcoin, and an amazing moment in our movement. Many articles have already been written in the short time since the Bitcoin bowl has ended, which discuss the amazing and outstanding event that has just occurred. I myself have even published a fun video of my time at the Bitcoin Bowl."
+  - title: "Genecoin: DNA for the Blockchain | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/18205/genecoin-dna-for-the-blockchain/"
+    description: "While it’s a common refrain in the Bitcoin universe that the Blockchain will have countless uses for the storage and management of scarcity in our lives, it’s still a field that’s just starting to deliver on this promise. "
+  - title: "Bracing for Bitcoin in Buenos Aires | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/15576/bracing-bitcoin-buenos-aires/"
+    description: "There is a large, imposing steel door along a popular street, in the bustling downtown business hub of Buenos Aires. There are no visible markings, or signs, that would indicate to passers-by what is housed inside."
+  - title: "Coins In The Kingdom Wrap Up | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/17107/coins-in-the-kingdom-wrap-up/"
+    description: "Though the price of Bitcoin is shaky, and the mood of Bitcoiners is somber, Jason King is throwing quite a party down in Orlando, Florida. Coins in the Kingdom has come to an end after a packed weekend of speakers whose topics spanned the gamut of introductory programming and usage of Storj (Shawn Wilkinson) to the pragmatic applications of smart contracts by a seasoned attorney (Pamela Morgan)."
+  - title: "An Interview with Stan Stalnaker about Ven and Hub Culture | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/17315/an-interview-with-stan-stalnaker-about-ven-and-hub-culture/"
+    description: "In this interview for Bitcoin Magazine, I interview Stan Stalnaker of Hub Culture about Ven, and it's place in the future of online currency."
+  - title: "Andreas auction of ten trillion dollars… for charity! | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/17757/andreas-auction-of-ten-trillion-dollars-for-charity/"
+    description: "Between the efforts of Jason King and Andreas Antonopoulos, Coins in the Kingdom might secure it’s place as the most charitable Bitcoin conference of the year. At the end of the first day of the conference, Andreas Antonopoulos was approached by Chris DeRose for a signature on a unique piece of numismatic history: a Ten Trillion Dollar Zimbabwe Reserve Note."
+  - title: "Counterparty and the Asset Revolution | Bitcoin Magazine"
+    href: "http://bitcoinmagazine.com/17866/counterparty-and-the-asset-revolution/"
+    description: "How many of you heard of Counterparty (github)? Awesome, wonderful, that’s encouraging sign. How many of you have a Counterparty asset (counterwallet github)? Oh wow, I am in a good audience here. I thought it was more of a introductory course, but good. I want to try to teach how to use those assets and really start thinking what those assets mean."
+
+---
+title: "Youtube Videos"
+nav: "videos"
+klass: 'YoutubeSection'
+channel: 'UC081hFE-eWOgoeYYl8j8Qhw'
+scrape_since: '2014-12-01'
+template: 'three_across_video_slideshow'
+description: "At some point, I realized that I'm getting asked the same sets of questions on a regular basis, so I decided to start compiling my answers into a youtube channel. Here's where they are, feel free to watch any one of these that grabs your attention. If you have questions of your own, tweet them to me! I love to help out the newcomers around here." 
+
+---
+title: "Notable Cats"
+template: "portrait"
+nav: "cats"
+description: "You can't be a great programmer without a cat! As such, it's important that we recognize the mammals that make us who we are. These cats in particular have all contributed in some way, to what you see here."
+links:
+  - title: "Pickles!"
+    image: "fatso.jpg"
+  - title: "Sketchball"
+    image: "sketchball.jpg"
+  - title: "Oliver"
+    image: "oliver.jpg"
+  - title: "Sidney"
+    image: "sidney.jpg"
+
+---
+title: "Audio and Podcasts"
+nav: "audio"
+description: "Here's a little collection of interviews and podcasts that I've had something to do with lately. Yeah I know I talk fast, I'm working on fixing that!"
+links:
+  - title: "CryptoScam #1 - Bitcoin (w/ Chris DeRose)"
+    href: "https://www.youtube.com/watch?v=1r482VFVsnc"
+    description: "In this first episode of CryptoScam, Chris DeRose and I explore the possibility of Bitcoin being a Scam. We cover topics like Natural Ponzi's, Bitcoin's early days with Satoshi mining most of the bitcoins, current use cases and what we see for the future."
+  - title: "The Bitcoin Group #125 - Trump Bitcoin, EthC ETF, Karpeles Interview and Miami Bitcoin Conference"
+    href: "https://www.youtube.com/watch?v=ePKxjLJKq-M"
+    description: "Donald Trump Inauguration Special: Make Bitcoin Great Again!, Barry Silbert Shares Digital Currency Group’s Perspective on Ethereum, Miami Bitcoin Conference, MadBitcoins Exclusive Interview with Mark Karpeles of Mt. Gox"
+  - title: "The Bitcoin Game #40: 2016 Year End Special!"
+    href: "https://soundcloud.com/the-bitcoin-game/the-bitcoin-game-40-2016-year-end-special"
+    description: "I want to propose that on January 3rd, the 8th anniversary of Bitcoin's genesis block, every cryptocurrency aficionado take a day to chill on the arguing, so we get a sense of what it’s like to be a huge, cohesive group."
+  - title: "#Blocktalk - Onecoin w/ Chris Derose and Tim Tayshun"
+    href: "https://www.youtube.com/watch?v=zSkUudx4e0s"
+    description: "Onecoin is a craze that's sweeping the nations, with many critics saying it should be avoided at all costs. Join us today as we chat with two researchers who have been tracking Onecoin events and business"
+  - title: "Counterparty Chit-Chat-Recap Uncensored! for the Week of August 2th 2015"
+    href: "https://soundcloud.com/derosetech/counterparty-chit-chat-recap-uncensored-for-the-week-of-august-2nd-2015"
+    description: "Josh and Chris Disucuss Ethereum, Factom, and Fungibility alongside the usual events of the week in the channel. This is a first post of the uncensored version, so let's see if people like this format!"
+  - title: "XCP Weekly Update #11 - Old ideas, New Methods"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-11-old-ideas-new-methods"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "Let's Talk Bitcoin! #235 Grown Up Conversations"
+    href: "https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-235-grown-up-conversations"
+    description: "On Todays Show Marc Hochstein speaks out in favor of Bitcoin (and not just the blockchain) Blythe Masters's Keynote at the American Banker Digital Currencies and the Blockchain Conference"
+  - title: "XCP Weekly Update #10 - American Banker and Bitnation"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-10-american-banker-and-bitnation"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "XCP Weekly Update #9 - Storj Development Update"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-9-storj-development-update-1?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+TheDailyBitcoinShow+(Let%27s+Talk+Bitcoin+Network+Feed)"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "XCP Weekly Update #8 - The first Counterparty Mobile App"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-8-the-first-counterparty-mobile-app"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "XCP Weekly Update #7 - WOODSHARES and Wallet Genie"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-7-woodshares-and-wallet-genie"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "XCP Weekly Update #6 - TOPCOIN and Tokenly"
+    href: "https://letstalkbitcoin.com/blog/post/xcp-weekly-update-6-topcoin-and-tokenly"
+    description: "Robert Ross is a Counterparty Foundation Community Director and the Director of FoldingCoin Inc. Each week Robert and various guests will bring you the news of what has been going on in the Counterparty communities and also touching base on the other Bitcoin 2.0 communities"
+  - title: "Counterparty Community Director Chris Derose on Bitcoin Uses"
+    href: "http://www.bitcoin.kn/2015/06/counterparty-community-director-chris-derose-on-bitcoin-uses/"
+    description: "Counterparty Community Director Chris Derose on Bitcoin uses by extending the Bitcoin protocol. We also discuss his American Banker articles."
+  - title: "The Soul of Bitcoin - The Tatiana Show"
+    href: "https://www.youtube.com/watch?v=Y7miJGf8UL4"
+    description: "The soul of bitcoin - does it belong to crony banks or free people? The Tatiana Show's guests on this episode are John Light and myself!"
+  - title: "Counterparty Candidate Debates on DogeCoinDark radio"
+    href: "https://www.mixcloud.com/dogedradio/counter-party-canditate/"
+    description: "Listen to the election debate between myself and fellow Community Director candidates hash out our election platform on DogeCoinDark radio."
+  - title: "An Interview with Stan Stalnaker about Ven and Hub Culture"
+    href: "http://bitcoinmagazine.com/17315/an-interview-with-stan-stalnaker-about-ven-and-hub-culture/"
+    description: "In this interview for Bitcoin Magazine, I interview Stan Stalnaker of Hub Culture about Ven, and it's place in the future of online currency"
+  - title: "Let's Talk Bitcoin #140 Boots on the Ground"
+    href: "http://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-140-boots-on-the-ground"
+    description: "First, Adam is joined by Chris DeRose who recently return from Argentina. They talk differences, similarities and lessons to learn. Then, Chris shares with us an interview from Argentina with Diego, a very active Bitcoiner helping bring the technology to the people who need it."
+  - title: "The Bubba Show 06.25.14"
+    href: "http://thebubbashow.org/the-bubba-show-06-25-14/"
+    description: "Today’s Bubba Show brings us Chris Derose a Bitcoin Expert"
+  - title: "Podcast 85 Interview with Chris DeRose"
+    href: "http://linuxcrazy.com/?q=node/99"
+    description: "In this podcast I interview Chris DeRose, Chris is the owner of DeRose Technologies an IT solutions provider specializing in Linux, and just about anything else."
+
+---
+title: "Projects and Companies"
+nav: "projects"
+description: "These are businesses and projects that I'm affiliated with in one way or another. Most of what you see outside this section is for my hobbies and evangelism work. This section is for serious business time!"
+links:
+  - title: "Meetup links"
+    description: "Once a week I set aside a night to spend with local Bitcoiners and wandering visitors. It's my favorite night of the week, and I float from city to city so that I get to spend time with as many people as possible here in the South Florida Bitcoin scene. Be sure to check out the schedule, and come out to meet me at anytime!"
+    href: "http://www.meetup.com/Bitcoin-of-South-Florida/"
+  - title: "Counterparty Foundation"
+    href: "http://www.counterpartyfoundation.org/"
+    description: "If you've read this far down, you know that I'm very active in the Counterparty community, and spend much of my time exploring the platform and its merits. I'm the first community director of the Counterparty foundation, and am proud to play a small part in its mission."
+  - title: "DeRose Technologies Inc."
+    href: "https://www.derosetechnologies.com"
+    description: "DeRose Technologies is my technology consulting firm that I started in 2003, and which I've been running for over a decade. It's fairly boring compared to most of what's on this page, but it's my dayjob. If you're looking for a conventional IT service and programming firm check us out."
+---
+title: "Similar Looking People"
+template: "portrait"
+nav: "people"
+description: "Apparently I've got a recognizable face. This section is for the people that I've been accused of being at one time or another. (And which I am not)"
+links:
+  - title: "Reid from Strangefolk"
+    image: "reid.jpg"
+  - title: "James Deen"
+    image: "james-deen.jpg"
+  - title: "Vince Vaughn"
+    image: "vince-vaughn.jpg"

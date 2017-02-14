@@ -1,0 +1,24 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  tagline: "Bitcoin evangelist, public speaker, <a href=\"https://soundcloud.com/bitcoinuncensored\">podcaster</a>, and journalist. I'm a lead organizer of the <a href=\"http://www.meetup.com/Bitcoin-of-South-Florida/\">South Florida Bitcoin group</a>, a lecturer, and the proud owner of two amazing cats. I'm a journalist, a <a href=\"https://www.youtube.com/user/cderose36\">Youtuber</a>, and accomplished <a href=\"https://www.github.com/brighton36\">software developer</a>. This site is snapshot of what's going on in my life, and a scratchpad for ideas. If you want to get a hold of me, <a href=\"https://twitter.com/derosetech\">twitter is your best route</a>, but I'll try to get around to an email sent to <a href=\"mailto:chris@chrisderose.com\">chris@chrisderose.com</a>. Yes, I have a milliner."
+  copyright_html: "All rights reserved. Chris DeRose &copy; %{year}"

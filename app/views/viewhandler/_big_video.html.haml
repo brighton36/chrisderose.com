@@ -1,0 +1,8 @@
+-section.links.each do |link|
+  .clearfix.item.col-lg-10
+    .col-md-5.pull-left
+      =link_to image_tag(video_thumbnail_path(:title => link.slug, :section => section.slug), :class => 'lg-thumbnail', :alt => link.title), link.href, :class => 'video-thumbnail', :target => '_blank'
+    .col-md-7.col-sm-8.col-xs-12.pull-left
+      %h4.text-capitalize
+        =link_to link.title, link.href, :target => '_blank'
+      %p=link.description

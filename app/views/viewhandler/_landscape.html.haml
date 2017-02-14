@@ -1,0 +1,6 @@
+-section.links.each do |link|
+  .clearfix.item.col-lg-10
+    .col-md-11.col-sm-11.col-xs-12.pull-left
+      %h4.text-capitalize
+        =link_to link.title, link.href, :target => '_blank'
+      %p=link.description

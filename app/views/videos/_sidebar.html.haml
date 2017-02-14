@@ -1,0 +1,5 @@
+%h3 Additional Videos
+- @sidebar_videos.each do |link|
+  .row
+    = link_to image_tag(video_thumbnail_path(:title => link.slug, :section => 'video'), :class => 'lg-thumbnail', :alt => link.title), video_path(:title => link.slug ), :class => 'video-thumbnail'
+    = link_to link.title, video_path(:title => link.slug), :class => 'text-center link-title'

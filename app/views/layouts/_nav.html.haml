@@ -1,0 +1,30 @@
+%nav.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      =link_to "Chris DeRose", '/', :class => 'navbar-brand'
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.text-capitalize
+        -@sections.each do |section|
+          - nav_link = section.nav ? section.nav : section.title
+          - unless section.links.nil?
+            %li
+              =link_to nav_link, "/#%s" % [section.slug]
+        - end if @sections
+        %li
+          =link_to "Blog", '#blog'
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          =link_to fa_icon("twitter", :class => 'fa-2x'), 'https://www.twitter.com/derosetech', :target => '_blank'
+        %li
+          =link_to fa_icon("facebook", :class => 'fa-2x'), 'https://www.facebook.com/chris.derose.16', :target => '_blank'
+        %li
+          =link_to fa_icon("github", :class => 'fa-2x'), 'https://www.github.com/brighton36', :target => '_blank'
+        %li
+          =link_to fa_icon("soundcloud", :class => 'fa-2x'), 'https://soundcloud.com/bitcoinuncensored', :target => '_blank'
+        %li
+          =link_to fa_icon("youtube", :class => 'fa-2x'), 'https://www.youtube.com/user/cderose36', :target => '_blank'

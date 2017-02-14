@@ -1,0 +1,19 @@
+%main
+  .container
+    .jumbotron.hero-spacer.visible-sm.visible-xs
+      %p=t('tagline').html_safe
+    - @sections.each do |section|
+      - unless section.links.nil?
+        %section{ :id => section.slug, :class => "row section #{section.format}"}
+          .col-lg-12
+            %h2=section.title
+            %p.desc=section.description
+            - if section.links
+              =render :partial => section.format, :locals => { :section => section }
+        %hr/
+    - end if @sections
+    -#
+      %section#blog.row.section
+        .col-lg-12
+          %h2 Blog
+          %p Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque. Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt. Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.
