@@ -14,12 +14,16 @@ class VideosController < ApplicationController
     yt = Yt::Video.new url: link.href
 
     thumbnail = link.try(:thumbnail_high) || yt.thumbnail_url(:high)
-
-    send_file( 
-      open(thumbnail),
-      :disposition => 'inline',
-      :type => 'image/jpeg',
-      :x_sendfile => true 
-    )
+    begin
+      send_file( 
+        open(thumbnail),
+        :disposition => 'inline',
+        :type => 'image/jpeg',
+        :x_sendfile => true 
+      )
+    rescue OpenURI::HTTPError
+      thumbnail = 'public/no-yt-thumbnail.jpg'
+      retry
+    end
   end
 end
